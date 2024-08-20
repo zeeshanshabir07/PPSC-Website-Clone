@@ -1,0 +1,15 @@
+// Import Bootstrap functions and variables
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Define custom color
+$custom-bg-color: #ccc;
+
+// Extend Bootstrap's color variables
+$colors: (
+  "custom": $custom-bg-color
+);
+
+// Import the rest of Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
